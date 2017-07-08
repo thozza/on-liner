@@ -1,0 +1,9 @@
+SmtpNotifier:
+  use_starttls: True
+  server: "smtp.google.com"
+  login: "nneeoo@gmail.com"
+  password: "elrlzlghwgolsqzm"
+
+PingCmdChecker:
+  destination: "vm1.thozza.com"
+  period: "5m"
